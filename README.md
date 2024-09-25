@@ -31,7 +31,6 @@ O repositório está organizado da seguinte maneira:
 
 - c/: Contém os códigos desenvolvidos nas semanas que utilizam a linguagem C (Weeks 0-5).
 - python/: Códigos desenvolvidos durante a semana de Python (Week 6).
-- ai/: Implementações relacionadas à inteligência artificial.
 - sql/: Scripts SQL desenvolvidos na semana de SQL (Week 7).
 - html-css-js/: Códigos e projetos da semana de HTML, CSS, e JavaScript (Week 8).
 - flask/: Projetos e desafios da semana de Flask (Week 9).
