@@ -59,7 +59,7 @@ O curso é ideal para aqueles que desejam construir uma base sólida em ciência
 
 ## Agradecimentos
 
-Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo.
+Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo!
 
 Muito obrigado!
 
