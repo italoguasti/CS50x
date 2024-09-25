@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The runtime increases more than linearly with the size of the input, indicating O(n²) complexity. The time taken for reversed lists is noticeably higher than for random lists, which is typical of Bubble Sort, as it is sensitive to the order of elements and performs poorly on reversed data.
+
+sort2 uses: Merge Sort
+
+How do you know?: The runtime increases almost linearly with the size of the input, suggesting O(n log n) complexity. The time for reversed lists is similar to the time for random lists, indicating that the algorithm is not sensitive to the initial order of the data, which is characteristic of Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: The runtime increases more than linearly with the size of the input, which suggests O(n²) complexity. The time taken for reversed lists is slightly higher than for random lists, indicating a stable algorithm that doesn't significantly depend on initial order, typical of Selection Sort.
