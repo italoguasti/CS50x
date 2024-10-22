@@ -1,0 +1,13 @@
+Spotify Wrapped leverages listening data to provide users with personalized summaries of their music habits over the past year. Using the data from this database, Spotify could generate several types of insights, such as:
+
+Top Songs & Artists
+By analyzing the song data (like what we’ve done with queries to list songs and artists), Spotify can show users their most listened-to songs and favorite artists, even breaking it down by genre or mood (e.g., danceability, energy, and valence).
+
+Listening Habits Over Time
+The duration, tempo, and key columns could be used to show users how their listening preferences evolved over time. For example, Spotify could identify if a user listened to more upbeat or slower songs over the course of the year or show trends in how a user’s mood-related metrics (e.g., valence) changed with seasons.
+
+Recommendations Based on Data
+By analyzing the tempo, key, and energy of a user’s favorite tracks, Spotify can recommend similar songs or artists for the future. The speechiness and loudness metrics might also help Spotify make curated playlists for users, such as songs to listen to when they are working out or relaxing.
+
+Collaborative and Social Insights
+Data like "featuring" in song names could be used to highlight collaborations between a user’s favorite artists or even recommend other songs with similar collaborations. Spotify could also show users how their tastes compare with friends or global trends by analyzing listening data across the platform.
