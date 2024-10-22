@@ -31,7 +31,6 @@ O repositório está organizado da seguinte maneira:
 
 - c/: Contém os códigos desenvolvidos nas semanas que utilizam a linguagem C (Weeks 0-5).
 - python/: Códigos desenvolvidos durante a semana de Python (Week 6).
-- ai/: Implementações relacionadas à inteligência artificial.
 - sql/: Scripts SQL desenvolvidos na semana de SQL (Week 7).
 - html-css-js/: Códigos e projetos da semana de HTML, CSS, e JavaScript (Week 8).
 - flask/: Projetos e desafios da semana de Flask (Week 9).
@@ -60,7 +59,7 @@ O curso é ideal para aqueles que desejam construir uma base sólida em ciência
 
 ## Agradecimentos
 
-Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo.
+Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo!
 
 Muito obrigado!
 
