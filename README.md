@@ -57,6 +57,16 @@ O curso oferece uma base sólida nos seguintes conceitos:
 
 O curso é ideal para aqueles que desejam construir uma base sólida em ciência da computação, abrindo portas para áreas como desenvolvimento de software, análise de dados, e inteligência artificial.
 
+## Meu Desafio Preferido
+
+O desafio que eu mais gostei foi sobre SQL e se chama Fiftyville. Nele, precisamos desvendar o mistério e descobrir quem roubou o pato CS50.
+Sendo assim, por ser o meu desafio preferido criei uma documentação explicando direitinho tudo o que fiz para solucionar este problema e lá mesmo eu conto a história toda do caso de Fiftyville. Ah e pode ficar tranquilo, já encontramos o CS50 e os vilões foram pegos!
+Acesse a documentação clicando em [fiftyville_cs50.pdf](sql/challenge_sql_fiftyville_cs50x.pdf).
+
+<div align="center" style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/ed03eb95-d3cb-4706-9c65-4e3a6c2e497b" style="width: 45%;">  
+</div>
+
 ## Agradecimentos
 
 Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo!
