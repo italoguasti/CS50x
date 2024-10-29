@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Italo G.</title>
+</head>
+
+<body>
+    <header class="banner">
+        <div class="image-italo">
+            <img src="./images/italo1.jpg" title="Foto Perfil Italo" alt="Foto Perfil Italo">
+        </div>
+        <h1>Italo Guasti</h1>
+        <p>This is my Home Page developed and based on<br> Harvard CS50x 2024.<br>Week 8: HTML, CSS, JavaScript.</p>
+        <div class="logo">
+            <img src="./images/harvard.png" title="Harvard Logo" alt="Harvard Logo">
+            <img src="./images/cs50.png" title="CS50 Duck" alt="CS50 Duck">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="professional.html">Professional</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Who am I?</h2>
+        <p>I'm a Computer Science student at the Federal University of Ouro Preto in Brazil, passionate about
+            challenges, technology, and innovation.</p>
+        <button onclick="cumprimentar()" id="btn-surprise">Click for a surprise!</button>
+    </section>
+
+
+    <script>
+        function cumprimentar() {
+            alert("Hello, thank you for visiting my website! Feel hugged!");
+        }
+    </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

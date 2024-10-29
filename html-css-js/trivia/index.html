@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Part 1: Multiple Choice Logic
+            const correctAnswer = "1 person per 1 sheep";
+            const buttons = document.querySelectorAll(".multiple-choice button");
+            const resultPart1 = document.getElementById("result-part1");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    if (button.textContent === correctAnswer) {
+                        button.style.backgroundColor = "green";
+                        resultPart1.textContent = "Correto!";
+                        resultPart1.style.color = "green";
+                    } else {
+                        button.style.backgroundColor = "red";
+                        resultPart1.textContent = "Incorreto";
+                        resultPart1.style.color = "red";
+                    }
+                    buttons.forEach(btn => btn.disabled = true); // desabilita todos os botões após a seleção
+                });
+            });
+
+            // Part 2: Free Response Logic
+            const correctCountry = "Brazil";
+            const checkAnswerBtn = document.getElementById("check-answer");
+            const userAnswer = document.getElementById("free-response");
+            const resultPart2 = document.getElementById("result-part2");
+
+            checkAnswerBtn.addEventListener("click", () => {
+                if (userAnswer.value.trim().toLowerCase() === correctCountry.toLowerCase()) {
+                    userAnswer.style.backgroundColor = "green";
+                    resultPart2.textContent = "Correto!";
+                    resultPart2.style.color = "green";
+                } else {
+                    userAnswer.style.backgroundColor = "red";
+                    resultPart2.textContent = "Incorreto";
+                    resultPart2.style.color = "red";
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+            <div class="multiple-choice">
+                <button>6 people per 1 sheep</button>
+                <button>3 people per 1 sheep</button>
+                <button>1 person per 1 sheep</button>
+                <button>1 person per 3 sheep</button>
+                <button>1 person per 6 sheep</button>
+            </div>
+            <p id="result-part1"></p>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+            <div class="free-response">
+                <input type="text" id="free-response">
+                <button id="check-answer">Check Answer</button>
+            </div>
+            <p id="result-part2"></p>
+        </div>
+    </div>
+</body>
+</html>

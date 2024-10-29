@@ -1,0 +1,197 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Geral elementos */
+
+* {
+    text-align: center;
+}
+
+.banner {
+    height: 96vh;
+    padding: 3% 0 3%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#banner-spec {
+    margin-top: 5%;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: #33A8DB;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.21rem;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+nav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #33A8DB;
+    text-decoration: none;
+}
+
+#hob-section {
+    margin-bottom: 3%;
+}
+
+span {
+    color: #33A8DB;
+}
+
+/* text */
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: transparent;
+    /*color: transparent; Aplicar o efeito degradê no texto*/
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 30px 0 24px;
+}
+
+/* button */
+
+button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.21em;
+    padding: 1rem 2rem;
+    border: 2px solid #31A8DD;
+    background-color: transparent;
+    /*background-color: transparent; Aplica um gradiente na borda */
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+    margin-bottom: 8%;
+    cursor: pointer;
+}
+
+#btn-surprise {
+
+    margin-top: 20px;
+}
+
+/* image-italo */
+
+.banner .banner-content .image-italo {
+    margin-bottom: 2.25rem;
+}
+
+.image-italo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 2rem;
+}
+
+.image-italo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* logo */
+
+.logo {
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.pictures-aboutme {
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.pictures-aboutme img {
+    width: 35%;
+    height: 300px;
+}
+
+.single-image {
+    display: contents;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.single-image img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+/* Bootstrap components */
+.toast {
+    background-color: #31A8DD !important;
+    color: white;
+}
+
+/* Cor do botão */
+.btn-custom {
+    background-color: #31A8DD;
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #2499B5;
+    /* Cor ao passar o mouse, opção mais escura */
+}
