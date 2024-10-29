@@ -6,7 +6,7 @@
 </div>
 <br>
 <br>
-Este repositório o apresenta a solução dos desafios propostos pelo curso **CS50's Introduction to Computer Science** da Harvard University Online. O curso oferece uma introdução abrangente aos fundamentos da ciência da computação, ensinando conceitos de programação, algoritmos, estruturas de dados, e muito mais.
+Este repositório o apresenta a solução dos desafios propostos pelo curso **CS50's Introduction to Computer Science** da Harvard University. O curso oferece uma introdução abrangente aos fundamentos da ciência da computação, ensinando conceitos de programação, algoritmos, estruturas de dados, e muito mais.
 
 ## Estrutura do Curso
 
