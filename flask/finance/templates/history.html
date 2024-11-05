@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Transaction History
+{% endblock %}
+
+{% block main %}
+    <!-- Tabela de histórico de transações -->
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th scope="col">Transaction</th>
+                <th scope="col">Symbol</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price</th>
+                <th scope="col">Date/Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+            <tr>
+                <td>
+                    {% if transaction.shares > 0 %}
+                        BUY
+                    {% else %}
+                        SELL
+                    {% endif %}
+                </td>
+                <td>{{ transaction.symbol }}</td>
+                <td>{{ transaction.shares | abs }}</td>
+                <td>{{ transaction.price | usd }}</td>
+                <td>{{ transaction.transacted }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-4">
+        <small>Data provided by <a href="https://finance.yahoo.com">Yahoo</a></small>
+    </footer>
+{% endblock %}

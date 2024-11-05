@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    C$50 Deposit
+{% endblock %}
+
+{% block main %}
+    <form action="/deposit" method="post">
+        <div class="mb-3 text-center">
+            <label for="symbol" class="form-label">Make the deposit and receive it directly into your account.</label>
+            <input type="number" class="form-control mx-auto w-auto" name="amount" min="1" max="5000" placeholder="Value" required>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Confirm</button>
+        </div>
+    </form>
+
+{% endblock %}

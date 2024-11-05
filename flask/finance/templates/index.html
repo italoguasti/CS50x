@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+
+    <!-- Tabela de portfólio -->
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Symbol</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price</th>
+                <th scope="col">TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+            <tr>
+                <td>{{ stock.symbol }}</td>
+                <td>{{ stock.shares }}</td>
+                <td>{{ stock.price | usd }}</td>
+                <td>{{ stock.total | usd }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Informações financeiras -->
+    <div class="text-center">
+        <p><strong>Cash:</strong> {{ cash | usd }}</p>
+        <p><strong>TOTAL:</strong> {{ total_value | usd }}</p>
+    </div>
+
+    <!-- Fonte dos dados -->
+    <footer class="text-center">
+        <small>Data provided by <a href="https://finance.yahoo.com">Yahoo</a></small>
+    </footer>
+{% endblock %}

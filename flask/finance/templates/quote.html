@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Get a Quote
+{% endblock %}
+
+{% block main %}
+    <!-- Formulário de consulta de cotação de ação -->
+    <form action="/quote" method="post">
+        <div class="mb-3">
+            <label for="symbol" class="form-label">Stock Symbol</label>
+            <input type="text" class="form-control mx-auto w-auto" id="symbol" name="symbol" placeholder="Enter stock symbol" autocomplete="off" autofocus required>
+        </div>
+        <button type="submit" class="btn btn-primary">Get Quote</button>
+    </form>
+
+    <!-- Exibição do resultado da consulta, se disponível -->
+    {% if stock %}
+    <div class="mt-4 text-center">
+        <h3>{{ stock.name }} ({{ stock.symbol }})</h3>
+        <p>Current price: <strong>${{ stock.price }}</strong></p>
+    </div>
+    {% endif %}
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-4">
+        <small>Data provided by <a href="https://finance.yahoo.com">Yahoo</a></small>
+    </footer>
+{% endblock %}

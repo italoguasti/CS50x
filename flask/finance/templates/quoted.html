@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Quote
+{% endblock %}
+
+{% block main %}
+    <!-- Mensagem de confirmação da consulta -->
+    <div class="text-center mt-4">
+        <h2>Stock Quote</h2>
+        <p>Here is the current price for {{ stock.name }} ({{ stock.symbol }}):</p>
+        <h3><strong>{{ stock.price | usd }}</strong></h3>
+    </div>
+
+    <!-- Botão para fazer uma nova consulta -->
+    <div class="text-center mt-4">
+        <a href="/quote" class="btn btn-primary">Get Another Quote</a>
+    </div>
+
+    <!-- Rodapé com informações de fonte de dados -->
+    <footer class="text-center mt-4">
+        <small>Data provided by <a href="https://finance.yahoo.com">Yahoo</a></small>
+    </footer>
+{% endblock %}

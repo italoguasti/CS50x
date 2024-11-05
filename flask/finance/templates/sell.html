@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell Stocks
+{% endblock %}
+
+{% block main %}
+    <!-- Formulário de venda de ações -->
+    <form action="/sell" method="post">
+        <div class="mb-3">
+            <label for="symbol" class="form-label">Stock Symbol</label>
+            <select class="form-select" id="symbol" name="symbol" required>
+                <option value="" disabled selected>Select stock</option>
+                <!-- Exibir todas as ações que o usuário possui. Exemplo: -->
+                <option value="AAPL">AAPL</option>
+                <option value="GOOGL">GOOGL</option>
+                <option value="NFLX">NFLX</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="shares" class="form-label">Number of Shares</label>
+            <input type="number" class="form-control" id="shares" name="shares" placeholder="Enter number of shares" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sell</button>
+    </form>
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-4">
+        <small>Data provided by <a href="https://finance.yahoo.com">Yahoo</a></small>
+    </footer>
+{% endblock %}
