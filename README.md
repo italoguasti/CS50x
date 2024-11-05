@@ -67,6 +67,14 @@ Acesse a documentação clicando em [fiftyville_cs50.pdf](sql/challenge_sql_fift
     <img src="https://github.com/user-attachments/assets/ed03eb95-d3cb-4706-9c65-4e3a6c2e497b" style="width: 45%;">  
 </div>
 
+## C$50 Finance
+
+<div align="center" style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/fffd2917-42b8-4001-82e9-55496c4efdfe" style="width: 45%;">  
+</div>
+
+Uma aplicação web feita com Flask e utilizando o SQLite por meio do qual você pode gerenciar portfólios de ações. Você pode ver o código e assistir a um vídeo do funcionamento detalhado em [flask/finance/README.md](flask/finance/README.md).
+
 ## Agradecimentos
 
 Gostaria de expressar meus sinceros agradecimentos ao [David J. Malan](https://www.instagram.com/davidjmalan/) e à equipe do [Harvard Online](https://www.harvardonline.harvard.edu/) por disponibilizarem o curso [CS50's](https://www.instagram.com/cs50/) Introduction to Computer Science de forma gratuita e com uma qualidade de ensino excepcional. A experiência proporcionada por este curso é inestimável e ajudou a construir uma base sólida em ciência da computação. O acesso a este conhecimento de alto nível, combinado com a excelência pedagógica, tem um impacto transformador na vida de milhares de estudantes ao redor do mundo!
