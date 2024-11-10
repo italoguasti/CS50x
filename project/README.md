@@ -28,4 +28,26 @@ O `Makefile` irá compilar automaticamente todos os arquivos necessários. Após
 ./exe
 ```
 
-## Input do programa
+### Input do Programa
+
+1. Ao rodar o executável, primeiro insira o tamanho do reticulado desejado. Exemplo: `3 3`.
+2. Em seguida, insira os valores das células do autômato (usando `1` e `0`) conforme o tamanho do reticulado especificado, lembrando que `1` para uma célula viva e `0` para uma célula morta.
+
+### Entrada via arquivo
+
+Para facilitar a execução, você também pode inserir o reticulado através de um arquivo.
+Deixei algumas entradas prontas nos arquivos dentro da pasta /inputs o intuito é facilitar o uso do programa.
+
+```bash
+./exe < ./inputs/4-4.in
+```
+O arquivo de entrada assim como (`4-4.in`) deve conter o tamanho do reticulado na primeira linha, seguido pela matriz de células nas linhas subsequentes.
+
+<div align="center" style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/aa24ffa4-7003-4f6e-8be8-de9c988ef597" style="width: 20%;">
+</div>
+
+
+
+
+
