@@ -24,6 +24,10 @@ O reticulado bidimensional possui células em dois estados: viva ou morta. A cad
 Dessa forma, após a inserção de um retículado válido o programa irá gerar o resultado e imprimi-lo para o usuário.
 <br> Você pode entender melhor visualmente sobre o funcionamento do automato celular [através deste site](http://cauequeiroz.com.br/game-of-life/) desenvolvido por Caue Queiroz.
 
+### Video Demo
+
+Este video contém a explicação do Projeto.
+
 ## Diretivas de compilação
 
 Para compilar o projeto é necessário um ambiente C configurado, recomendo utilizar a IDE VSCode. Sendo assim, em seu terminal acesse a pasta do projeto e rode o comando:
