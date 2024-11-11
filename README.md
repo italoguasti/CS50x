@@ -29,12 +29,13 @@ O curso é dividido em semanas temáticas, abordando diferentes tópicos e lingu
 
 O repositório está organizado da seguinte maneira:
 
+- scratch/: Jogo desenvolvido na plataforma Scratch (Week 0).
 - c/: Contém os códigos desenvolvidos nas semanas que utilizam a linguagem C (Weeks 0-5).
 - python/: Códigos desenvolvidos durante a semana de Python (Week 6).
 - sql/: Scripts SQL desenvolvidos na semana de SQL (Week 7).
 - html-css-js/: Códigos e projetos da semana de HTML, CSS, e JavaScript (Week 8).
 - flask/: Projetos e desafios da semana de Flask (Week 9).
-- cybersecurity/: Códigos da semana de cibersegurança (Week 10).
+- project/: Meu projeto final do CS50 (Week 11).
 
 ## Execução dos Códigos
 
